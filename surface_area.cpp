@@ -19,9 +19,9 @@ int main() {
     std::cout << "Let's calculate the surface area of a square pyramid."
               << std::endl;
     std::cout << std::endl;
-    std::cout << "Enter the base length (mm): ";
+    std::cout << "Enter the base length (m): ";
     std::cin >> base;
-    std::cout << "Enter the height (mm): ";
+    std::cout << "Enter the height (m): ";
     std::cin >> height;
 
     // process
@@ -30,4 +30,4 @@ int main() {
     std::cout << std::endl;
 
     // output
-    std::cout << "Surface area is " << (surface_area) << " mm²" << std::endl;}
+    std::cout << "Surface area is " << (surface_area) << " m²" << std::endl;}
